@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CriarPensamentoComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  //Atributo - pensamento
+  // {} - objeto
+  //id, conteudo, autoria e modelo - propriedades
+  pensamento = {
+    id: '1',
+    conteudo: '',
+    autoria: '',
+    modelo: 'modelo1'
   }
 
+  constructor() { /* TODO document why this constructor is empty */  }
+
+  ngOnInit(): void {
+    // TODO document why this method 'ngOnInit' is empty
+  }
+
+  criarPensamento(){
+    console.log("Event Binding funciona");
+  }
+
+  cancelar(){
+ //TODO
+  }
 }
