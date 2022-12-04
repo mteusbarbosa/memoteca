@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { CriarPensamentoComponent } from './components/pensamento/criar-pensamento/criar-pensamento.component';
 import { ListarPensamentoComponent } from './components/pensamento/listar-pensamento/listar-pensamento.component';
+import { PensamentoComponent } from './components/pensamento/pensamento/pensamento.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListarPensamentoComponent
+    ListarPensamentoComponent,
+    PensamentoComponent
   ],
   imports: [
     BrowserModule,
