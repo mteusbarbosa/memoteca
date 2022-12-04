@@ -1,7 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { CriarPensamentoComponent } from './components/pensamento/criar-pensamento/criar-pensamento.component';
+import { ListarPensamentoComponent } from './components/pensamento/listar-pensamento/listar-pensamento.component';
+
+const routes: Routes = [
+  {
+  path: '',
+  redirectTo: 'listarPensamento',
+  pathMatch: 'full'
+  },
+  {
+  path: 'criarPensamento',
+  component: CriarPensamentoComponent
+  },
+  {
+  path: 'listarPensamento',
+  component: ListarPensamentoComponent
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
