@@ -1,3 +1,4 @@
+import { Pensamento } from './../pensamento';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -8,7 +9,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PensamentoComponent implements OnInit {
   //pensamento - atributo
   //@Input - decorator
-  @Input() pensamento = {
+  @Input() pensamento: Pensamento = {
+    id: 0,
     conteudo: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor totam dolorum facilis nulla dolore exercitationem officiis fugit voluptatem, commodi consequatur cupiditate nemo iusto nostrum adipisci placeat voluptate consectetur? Distinctio, pariatur?',
     autoria: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor totam dolorum facilis nulla dolore exercitationem officiis fugit voluptatem, commodi consequatur cupiditate nemo iusto nostrum adipisci placeat voluptate consectetur? Distinctio, pariatur?',
     modelo: '',

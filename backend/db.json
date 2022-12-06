@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Antes tarde do que nunca",
+      "autoria": "Mateus",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Acabou, boa sorte",
+      "autoria": "Marta",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Moscou playboy",
+      "autoria": "Pedro",
+      "modelo": "modelo3"
+    }
+  ]
+}
